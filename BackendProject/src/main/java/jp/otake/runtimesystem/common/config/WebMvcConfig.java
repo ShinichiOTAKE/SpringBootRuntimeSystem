@@ -1,4 +1,4 @@
-package jp.otake.runtimesystem.config;
+package jp.otake.runtimesystem.common.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
