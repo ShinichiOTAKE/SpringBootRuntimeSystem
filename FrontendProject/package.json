@@ -1,0 +1,26 @@
+{
+  "name": "runtime-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shinichi OTAKE",
+  "license": "MIT",
+  "dependencies": {
+    "@loadable/component": "^5.15.3",
+    "@tanstack/react-table": "^8.7.9",
+    "@types/loadable__component": "^5.13.4",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "axios": "^1.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "preview": "tsc --noEmit && vite previeww",
+    "build": "vite build"
+  }
+}
